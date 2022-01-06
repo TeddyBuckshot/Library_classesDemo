@@ -52,4 +52,10 @@ public class LibraryTest {
         assertEquals(4, library2.getNumOfBooks());
     }
 
+    @Test
+    public void canRemoveFromLibrary(){
+        library1.removeFromLibrary(book1);
+        assertEquals(3, library1.getNumOfBooks());
+    }
+
 }

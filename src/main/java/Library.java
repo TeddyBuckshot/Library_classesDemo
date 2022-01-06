@@ -22,6 +22,11 @@ public class Library {
         return this.books.size();
     }
 
+    public Book removeFromLibrary(Book book) {
+        this.books.remove(book);
+        return book;
+    }
+
 
 
 }
